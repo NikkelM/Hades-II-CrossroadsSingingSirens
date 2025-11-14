@@ -3,6 +3,8 @@
 This mod adds a new lyrical version of each of the songs by Scylla and the Sirens to the Crossroads' Music Maker, allowing you to choose between the two versions whenever you want.
 To unlock a lyrical version of a song, you first need to own the instrumental version.
 
+![Unlock new songs with the Music Maker](https://github.com/user-attachments/assets/31ac2acc-8e3f-4a8f-975f-5e129f8da2c8)
+
 ## Other related mods
 
 To further improve your musical experience in the Crossroads, consider installing some of my other mods:

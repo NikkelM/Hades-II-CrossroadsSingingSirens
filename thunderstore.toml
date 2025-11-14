@@ -4,7 +4,7 @@ schemaVersion = "0.0.1"
 
 [package]
 namespace = "NikkelM"
-name = "Crossroad_Singing_Sirens"
+name = "Crossroads_Singing_Sirens"
 versionNumber = "1.0.0"
 description = "Unlock lyrical versions of the Sirens' songs at the Music Maker in the Crossroads."
 websiteUrl = "https://github.com/NikkelM/Hades-II-CrossroadSingingSirens"
