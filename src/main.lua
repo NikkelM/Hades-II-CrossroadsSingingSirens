@@ -46,7 +46,21 @@ local function on_ready()
 	import "Scripts/AudioLogic.lua"
 
 	-- Localizations
+	import "Game/Text/HelpText.de.sjson.lua"
+	import "Game/Text/HelpText.el.sjson.lua"
 	import "Game/Text/HelpText.en.sjson.lua"
+	import "Game/Text/HelpText.es.sjson.lua"
+	import "Game/Text/HelpText.fr.sjson.lua"
+	import "Game/Text/HelpText.it.sjson.lua"
+	import "Game/Text/HelpText.ja.sjson.lua"
+	import "Game/Text/HelpText.ko.sjson.lua"
+	import "Game/Text/HelpText.pl.sjson.lua"
+	import "Game/Text/HelpText.pt-BR.sjson.lua"
+	import "Game/Text/HelpText.ru.sjson.lua"
+	import "Game/Text/HelpText.tr.sjson.lua"
+	import "Game/Text/HelpText.uk.sjson.lua"
+	import "Game/Text/HelpText.zh-CN.sjson.lua"
+	import "Game/Text/HelpText.zh-TW.sjson.lua"
 end
 
 local function on_reload()

@@ -63,7 +63,7 @@ local songWorldUpgradeData = {
 		InheritFrom = { "DefaultSongItem" },
 		TrackName = "/Music/IrisMusicScylla2_MC",
 		ModsNikkelMCrossroadSingingSirens_MusicSection = 2,
-		ModsNikkelMCrossroadSingingSirens_TrackOffset = 521,
+		ModsNikkelMCrossroadSingingSirens_TrackOffset = 521.5,
 
 		GameStateRequirements = {
 			{
