@@ -1,10 +1,14 @@
 # Changelog
 
-## v1.0.1
+## v1.0.2
 
 <!--Releasenotes start-->
-- The Music Maker now rocks out to certain lyrical songs.
+- Fixed an issue where songs would not unlock immediately if the config option was enabled before returning from a Chaos Trial.
 <!--Releasenotes end-->
+
+## v1.0.1
+
+- The Music Maker now rocks out to certain lyrical songs.
 
 ## v1.0.0
 
