@@ -1,10 +1,14 @@
 # Changelog
 
-## v1.0.2
+## v1.0.3
 
 <!--Releasenotes start-->
-- Fixed an issue where songs would not unlock immediately if the config option was enabled before returning from a Chaos Trial.
+- Fixed an issue where songs would not unlock immediately if the config option was enabled before returning from a Dream Dive.
 <!--Releasenotes end-->
+
+## v1.0.2
+
+- Fixed an issue where songs would not unlock immediately if the config option was enabled before returning from a Chaos Trial.
 
 ## v1.0.1
 
