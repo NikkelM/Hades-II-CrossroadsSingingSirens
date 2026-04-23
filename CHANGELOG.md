@@ -1,10 +1,14 @@
 # Changelog
 
-## v1.0.3
+## v1.0.4
 
 <!--Releasenotes start-->
-- Fixed an issue where songs would not unlock immediately if the config option was enabled before returning from a Dream Dive.
+- Fixed an issue where using `unlockAll` to unlock all songs immediately would not add them to a secondary internal table tracking song unlocks.
 <!--Releasenotes end-->
+
+## v1.0.3
+
+- Fixed an issue where songs would not unlock immediately if the config option was enabled before returning from a Dream Dive.
 
 ## v1.0.2
 

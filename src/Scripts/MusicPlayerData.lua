@@ -170,27 +170,46 @@ end
 
 -- If the config option is enabled, unlock all songs immediately
 if config.unlockEverything then
-	-- This must be the same as the wrap for HubPostBountyLoad and HubPostDreamLoad
-	modutil.mod.Path.Wrap("DeathAreaRoomTransition", function(base, source, args)
+	local function unlockAllSongs()
 		for songName, _ in pairs(songWorldUpgradeData) do
 			game.AddWorldUpgrade(songName)
+			if not game.Contains(game.GameState.UnlockedMusicPlayerSongs, songName) then
+				table.insert(game.GameState.UnlockedMusicPlayerSongs, songName)
+			end
 		end
-		base(source, args)
+	end
+
+	-- This must be the same as the wrap for HubPostBountyLoad and HubPostDreamLoad
+	modutil.mod.Path.Wrap("DeathAreaRoomTransition", function(base, source, args)
+		unlockAllSongs()
+
+		return base(source, args)
 	end)
 
 	-- If returning from a Chaos Trial, this will be called instead of DeathAreaRoomTransition
 	modutil.mod.Path.Wrap("HubPostBountyLoad", function(base, source, args)
-		for songName, _ in pairs(songWorldUpgradeData) do
-			game.AddWorldUpgrade(songName)
-		end
-		base(source, args)
+		unlockAllSongs()
+
+		return base(source, args)
 	end)
 
 	-- If returning from a Dream Dive, this will be called instead of DeathAreaRoomTransition
 	modutil.mod.Path.Wrap("HubPostDreamLoad", function(base, source, args)
-		for songName, _ in pairs(songWorldUpgradeData) do
-			game.AddWorldUpgrade(songName)
-		end
-		base(source, args)
+		unlockAllSongs()
+
+		return base(source, args)
 	end)
 end
+
+-- Retroactively fix songs that were unlocked via AddWorldUpgrade but not added to UnlockedMusicPlayerSongs before this was fixed in the mod
+modutil.mod.Path.Wrap("DoPatches", function(base)
+	if game.GameState ~= nil and game.GameState.WorldUpgradesAdded ~= nil then
+		for songName, _ in pairs(songWorldUpgradeData) do
+			if game.GameState.WorldUpgradesAdded[songName] == true and not game.Contains(game.GameState.UnlockedMusicPlayerSongs, songName) then
+				table.insert(game.GameState.UnlockedMusicPlayerSongs, songName)
+			end
+		end
+	end
+
+	base()
+end)
