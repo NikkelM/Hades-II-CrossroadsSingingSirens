@@ -3,7 +3,7 @@
 ## v1.0.4
 
 <!--Releasenotes start-->
-- Fixed an issue where using `unlockAll` to unlock all songs immediately would not add them to a secondary internal table tracking song unlocks.
+- Fixed an issue where using `unlockEverything` to unlock all songs immediately would not add them to a secondary internal table tracking song unlocks.
 <!--Releasenotes end-->
 
 ## v1.0.3
