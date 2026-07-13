@@ -1,11 +1,16 @@
 # Changelog
 
-## v2.0.0
+## v2.0.1
 
 <!--Releasenotes start-->
+- Renamed "Hummed Melody" to "Hummed Lyrics" for consistency.
+- Use square brackets instead of parantheses for consistency.
+<!--Releasenotes end-->
+
+## v2.0.0
+
 - Added proper "Lyrics" versions of the songs the Sirens sing in Oceanus (until now, only the early-biome humming versions were available and incorrectly named "Lyrics"). The existing tracks have been renamed to "Humming" versions and remain unlocked if you have already bought them.
 - Added "Hummed Melody" versions of the same songs. These are the same arrangement as the "Lyrics" versions, but hummed instead of sung. They unlock after you have bought the "Lyrics" version of a track.
-<!--Releasenotes end-->
 
 ## v1.0.4
 

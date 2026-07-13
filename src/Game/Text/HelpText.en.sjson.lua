@@ -7,77 +7,77 @@ local order = {
 local newData = {
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics",
-    DisplayName = "Song of the Sirens (Humming)",
+    DisplayName = "Song of the Sirens \\[Humming\\]",
     Description = "Theme intended to lure a sizeable and captive audience, by an Oceanus-based musical trio."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics_Actual",
-    DisplayName = "Song of the Sirens (Lyrics)",
+    DisplayName = "Song of the Sirens \\[Lyrics\\]",
     Description = "Theme intended to lure a sizeable and captive audience, by an Oceanus-based musical trio."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics_Hummed",
-    DisplayName = "Song of the Sirens (Hummed Melody)",
+    DisplayName = "Song of the Sirens \\[Hummed Lyrics\\]",
     Description = "Theme intended to lure a sizeable and captive audience, by an Oceanus-based musical trio."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1b_Lyrics",
-    DisplayName = "Coral Crown (Lyrics)",
+    DisplayName = "Coral Crown \\[Lyrics\\]",
     Description = "Theme performed most nights in a corner of the Underworld, by an Oceanus-based musical trio."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics",
-    DisplayName = "Song of the Deep (Humming)",
+    DisplayName = "Song of the Deep \\[Humming\\]",
     Description = "Theme in tribute to sailors forever lost at sea, by an Oceanus-based musical trio."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics_Actual",
-    DisplayName = "Song of the Deep (Lyrics)",
+    DisplayName = "Song of the Deep \\[Lyrics\\]",
     Description = "Theme in tribute to sailors forever lost at sea, by an Oceanus-based musical trio."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics_Hummed",
-    DisplayName = "Song of the Deep (Hummed Melody)",
+    DisplayName = "Song of the Deep \\[Hummed Lyrics\\]",
     Description = "Theme in tribute to sailors forever lost at sea, by an Oceanus-based musical trio."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2b_Lyrics",
-    DisplayName = "I Am Gonna Claw (Out Your Eyes...) (Lyrics)",
+    DisplayName = "I Am Gonna Claw (Out Your Eyes...) \\[Lyrics\\]",
     Description = "Theme with somewhat vindictive overtones, by an Oceanus-based musical trio."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics",
-    DisplayName = "Song of the Isles (Humming)",
+    DisplayName = "Song of the Isles \\[Humming\\]",
     Description = "Theme in tribute to nautical exploration, by an Oceanus-based musical trio."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics_Actual",
-    DisplayName = "Song of the Isles (Lyrics)",
+    DisplayName = "Song of the Isles \\[Lyrics\\]",
     Description = "Theme in tribute to nautical exploration, by an Oceanus-based musical trio."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics_Hummed",
-    DisplayName = "Song of the Isles (Hummed Melody)",
+    DisplayName = "Song of the Isles \\[Hummed Lyrics\\]",
     Description = "Theme in tribute to nautical exploration, by an Oceanus-based musical trio."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3b_Lyrics",
-    DisplayName = "Rock and a Hard Place (Lyrics)",
+    DisplayName = "Rock and a Hard Place \\[Lyrics\\]",
     Description = "Theme about being in dire straits, by an Oceanus-based musical trio with special guest."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4a_Lyrics",
-    DisplayName = "Song of the Pearls (Humming)",
+    DisplayName = "Song of the Pearls \\[Humming\\]",
     Description = "Theme invoking treasures of the sea, by an Oceanus-based musical trio."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4a_Lyrics_Actual",
-    DisplayName = "Song of the Pearls (Lyrics)",
+    DisplayName = "Song of the Pearls \\[Lyrics\\]",
     Description = "Theme invoking treasures of the sea, by an Oceanus-based musical trio."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4b_Lyrics",
-    DisplayName = "Bewitching Eyes (Lyrics)",
+    DisplayName = "Bewitching Eyes \\[Lyrics\\]",
     Description = "Theme about magickally-induced love, by an Oceanus-based musical trio."
   },
 }

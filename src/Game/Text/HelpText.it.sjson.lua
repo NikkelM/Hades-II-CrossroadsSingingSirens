@@ -7,77 +7,77 @@ local order = {
 local newData = {
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics",
-    DisplayName = "Canto delle Sirene (Humming)",
+    DisplayName = "Canto delle Sirene \\[Humming\\]",
     Description = "Tema volto a irretire un folto pubblico di prede per un trio musicale residente dell'Oceano."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics_Actual",
-    DisplayName = "Canto delle Sirene (Lyrics)",
+    DisplayName = "Canto delle Sirene \\[Lyrics\\]",
     Description = "Tema volto a irretire un folto pubblico di prede per un trio musicale residente dell'Oceano."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics_Hummed",
-    DisplayName = "Canto delle Sirene (Hummed Melody)",
+    DisplayName = "Canto delle Sirene \\[Hummed Lyrics\\]",
     Description = "Tema volto a irretire un folto pubblico di prede per un trio musicale residente dell'Oceano."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1b_Lyrics",
-    DisplayName = "Diadema di Coralli (Lyrics)",
+    DisplayName = "Diadema di Coralli \\[Lyrics\\]",
     Description = "Tema spesso eseguito in un angolo dell'Oltretomba da un trio musicale residente nell'Oceano."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics",
-    DisplayName = "Canto degli Abissi (Humming)",
+    DisplayName = "Canto degli Abissi \\[Humming\\]",
     Description = "Tema in tributo ai marinai persi per sempre in mare, da un trio musicale residente nell'Oceano."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics_Actual",
-    DisplayName = "Canto degli Abissi (Lyrics)",
+    DisplayName = "Canto degli Abissi \\[Lyrics\\]",
     Description = "Tema in tributo ai marinai persi per sempre in mare, da un trio musicale residente nell'Oceano."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics_Hummed",
-    DisplayName = "Canto degli Abissi (Hummed Melody)",
+    DisplayName = "Canto degli Abissi \\[Hummed Lyrics\\]",
     Description = "Tema in tributo ai marinai persi per sempre in mare, da un trio musicale residente nell'Oceano."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2b_Lyrics",
-    DisplayName = "Ti Strapperò (gli Occhi e Poi...) (Lyrics)",
+    DisplayName = "Ti Strapperò (gli Occhi e Poi...) \\[Lyrics\\]",
     Description = "Tema dai toni vendicativi non molto velati, eseguito da un trio musicale residente nell'Oceano."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics",
-    DisplayName = "Canto delle Isole (Humming)",
+    DisplayName = "Canto delle Isole \\[Humming\\]",
     Description = "Tema in tributo all'esplorazione nautica, da un trio musicale residente nell'Oceano."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics_Actual",
-    DisplayName = "Canto delle Isole (Lyrics)",
+    DisplayName = "Canto delle Isole \\[Lyrics\\]",
     Description = "Tema in tributo all'esplorazione nautica, da un trio musicale residente nell'Oceano."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics_Hummed",
-    DisplayName = "Canto delle Isole (Hummed Melody)",
+    DisplayName = "Canto delle Isole \\[Hummed Lyrics\\]",
     Description = "Tema in tributo all'esplorazione nautica, da un trio musicale residente nell'Oceano."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3b_Lyrics",
-    DisplayName = "Acque Amare (Lyrics)",
+    DisplayName = "Acque Amare \\[Lyrics\\]",
     Description = "Tema di un famigerato stretto, eseguito da un trio musicale dell'Oceano (più un'ospite speciale)."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4a_Lyrics",
-    DisplayName = "Canto delle Perle (Humming)",
+    DisplayName = "Canto delle Perle \\[Humming\\]",
     Description = "Tema che evoca immagini di tesori sommersi, da un trio musicale residente dell'Oceano."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4a_Lyrics_Actual",
-    DisplayName = "Canto delle Perle (Lyrics)",
+    DisplayName = "Canto delle Perle \\[Lyrics\\]",
     Description = "Tema che evoca immagini di tesori sommersi, da un trio musicale residente dell'Oceano."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4b_Lyrics",
-    DisplayName = "Magia d'Amore (Lyrics)",
+    DisplayName = "Magia d'Amore \\[Lyrics\\]",
     Description = "Tema di amori indotti con mezzi occulti, da un trio musicale residente dell'Oceano."
   },
 }

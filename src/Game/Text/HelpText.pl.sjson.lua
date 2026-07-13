@@ -7,91 +7,91 @@ local order = {
 local newData = {
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics",
-    DisplayName = "Pieśń syren (Humming)",
+    DisplayName = "Pieśń syren \\[Humming\\]",
     Description =
     "Pieśń skomponowana z myślą o oczarowaniu jak największej publiczności przez muzyczne trio zamieszkujące głębiny Okeanosu."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics_Actual",
-    DisplayName = "Pieśń syren (Lyrics)",
+    DisplayName = "Pieśń syren \\[Lyrics\\]",
     Description =
     "Pieśń skomponowana z myślą o oczarowaniu jak największej publiczności przez muzyczne trio zamieszkujące głębiny Okeanosu."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics_Hummed",
-    DisplayName = "Pieśń syren (Hummed Melody)",
+    DisplayName = "Pieśń syren \\[Hummed Lyrics\\]",
     Description =
     "Pieśń skomponowana z myślą o oczarowaniu jak największej publiczności przez muzyczne trio zamieszkujące głębiny Okeanosu."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1b_Lyrics",
-    DisplayName = "Koralowa korona (Lyrics)",
+    DisplayName = "Koralowa korona \\[Lyrics\\]",
     Description =
     "Pieśń słyszana niemal każdej nocy w pewnym zakątku. Została skomponowana przez muzyczne trio zamieszkujące głębiny Okeanosu."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics",
-    DisplayName = "Pieśń głębin (Humming)",
+    DisplayName = "Pieśń głębin \\[Humming\\]",
     Description =
     "Pieśń będąca hołdem dla żeglarzy na zawsze zaginionych na morzu skomponowana przez muzyczne trio zamieszkujące głębiny Okeanosu."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics_Actual",
-    DisplayName = "Pieśń głębin (Lyrics)",
+    DisplayName = "Pieśń głębin \\[Lyrics\\]",
     Description =
     "Pieśń będąca hołdem dla żeglarzy na zawsze zaginionych na morzu skomponowana przez muzyczne trio zamieszkujące głębiny Okeanosu."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics_Hummed",
-    DisplayName = "Pieśń głębin (Hummed Melody)",
+    DisplayName = "Pieśń głębin \\[Hummed Lyrics\\]",
     Description =
     "Pieśń będąca hołdem dla żeglarzy na zawsze zaginionych na morzu skomponowana przez muzyczne trio zamieszkujące głębiny Okeanosu."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2b_Lyrics",
-    DisplayName = "Wydrapię oczy ci (i utopię na śmierć) (Lyrics)",
+    DisplayName = "Wydrapię oczy ci (i utopię na śmierć) \\[Lyrics\\]",
     Description =
     "Pieśń z wyraźnym negatywnym podtekstem skomponowana przez muzyczne trio zamieszkujące głębiny Okeanosu."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics",
-    DisplayName = "Wyspiarska pieśń (Humming)",
+    DisplayName = "Wyspiarska pieśń \\[Humming\\]",
     Description =
     "Pieśń będąca hołdem dla wielkich morskich wypraw skomponowana przez muzyczne trio zamieszkujące głębiny Okeanosu."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics_Actual",
-    DisplayName = "Wyspiarska pieśń (Lyrics)",
+    DisplayName = "Wyspiarska pieśń \\[Lyrics\\]",
     Description =
     "Pieśń będąca hołdem dla wielkich morskich wypraw skomponowana przez muzyczne trio zamieszkujące głębiny Okeanosu."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics_Hummed",
-    DisplayName = "Wyspiarska pieśń (Hummed Melody)",
+    DisplayName = "Wyspiarska pieśń \\[Hummed Lyrics\\]",
     Description =
     "Pieśń będąca hołdem dla wielkich morskich wypraw skomponowana przez muzyczne trio zamieszkujące głębiny Okeanosu."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3b_Lyrics",
-    DisplayName = "Między Scyllą a Charybdą (Lyrics)",
+    DisplayName = "Między Scyllą a Charybdą \\[Lyrics\\]",
     Description =
     "Pieśń poświęcona sytuacjom bez wyjścia skomponowana przez muzyczne trio z głębin Okeanosu i ich gościa specjalnego."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4a_Lyrics",
-    DisplayName = "Pieśń o perłach (Humming)",
+    DisplayName = "Pieśń o perłach \\[Humming\\]",
     Description =
     "Pieśń będąca pochwałą podmorskich skarbów skomponowana przez muzyczne trio zamieszkujące głębiny Okeanosu."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4a_Lyrics_Actual",
-    DisplayName = "Pieśń o perłach (Lyrics)",
+    DisplayName = "Pieśń o perłach \\[Lyrics\\]",
     Description =
     "Pieśń będąca pochwałą podmorskich skarbów skomponowana przez muzyczne trio zamieszkujące głębiny Okeanosu."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4b_Lyrics",
-    DisplayName = "Czarujący wzrok (Lyrics)",
+    DisplayName = "Czarujący wzrok \\[Lyrics\\]",
     Description =
     "Pieśń opiewająca wywołaną magicznie miłość skomponowana przez muzyczne trio zamieszkujące głębiny Okeanosu."
   },

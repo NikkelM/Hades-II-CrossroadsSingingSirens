@@ -7,77 +7,77 @@ local order = {
 local newData = {
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics",
-    DisplayName = "Пісня сирен (Humming)",
+    DisplayName = "Пісня сирен \\[Humming\\]",
     Description = "Пісня для заманювання захоплених натовпів на концерти (створена музичним тріо з Океану)."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics_Actual",
-    DisplayName = "Пісня сирен (Lyrics)",
+    DisplayName = "Пісня сирен \\[Lyrics\\]",
     Description = "Пісня для заманювання захоплених натовпів на концерти (створена музичним тріо з Океану)."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics_Hummed",
-    DisplayName = "Пісня сирен (Hummed Melody)",
+    DisplayName = "Пісня сирен \\[Hummed Lyrics\\]",
     Description = "Пісня для заманювання захоплених натовпів на концерти (створена музичним тріо з Океану)."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1b_Lyrics",
-    DisplayName = "Цар кісток (Lyrics)",
+    DisplayName = "Цар кісток \\[Lyrics\\]",
     Description = "Пісня, яка майже щоночі лунає із закутка Підземного світу (виконує музичне тріо з Океану)."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics",
-    DisplayName = "Пісня глибин (Humming)",
+    DisplayName = "Пісня глибин \\[Humming\\]",
     Description = "Пісня про моряків, що назавжди лишилися в морі (виконує музичне тріо з Океану)."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics_Actual",
-    DisplayName = "Пісня глибин (Lyrics)",
+    DisplayName = "Пісня глибин \\[Lyrics\\]",
     Description = "Пісня про моряків, що назавжди лишилися в морі (виконує музичне тріо з Океану)."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics_Hummed",
-    DisplayName = "Пісня глибин (Hummed Melody)",
+    DisplayName = "Пісня глибин \\[Hummed Lyrics\\]",
     Description = "Пісня про моряків, що назавжди лишилися в морі (виконує музичне тріо з Океану)."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2b_Lyrics",
-    DisplayName = "Вирву (дві зінички твої...) (Lyrics)",
+    DisplayName = "Вирву (дві зінички твої...) \\[Lyrics\\]",
     Description = "Безпідставно жорстока пісня (виконує музичне тріо з Океану)."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics",
-    DisplayName = "Пісня островів (Humming)",
+    DisplayName = "Пісня островів \\[Humming\\]",
     Description = "Пісня про натхненне мореплавство (виконує музичне тріо з Океану)."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics_Actual",
-    DisplayName = "Пісня островів (Lyrics)",
+    DisplayName = "Пісня островів \\[Lyrics\\]",
     Description = "Пісня про натхненне мореплавство (виконує музичне тріо з Океану)."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics_Hummed",
-    DisplayName = "Пісня островів (Hummed Melody)",
+    DisplayName = "Пісня островів \\[Hummed Lyrics\\]",
     Description = "Пісня про натхненне мореплавство (виконує музичне тріо з Океану)."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3b_Lyrics",
-    DisplayName = "Між Скіллою й Харібдою (Lyrics)",
+    DisplayName = "Між Скіллою й Харібдою \\[Lyrics\\]",
     Description = "Пісня про складні життєві обставини (виконує музичне тріо з Океану із запрошеною гостею)."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4a_Lyrics",
-    DisplayName = "Пісня перлів (Humming)",
+    DisplayName = "Пісня перлів \\[Humming\\]",
     Description = "Пісня про скарби морів (виконує музичне тріо з Океану)."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4a_Lyrics_Actual",
-    DisplayName = "Пісня перлів (Lyrics)",
+    DisplayName = "Пісня перлів \\[Lyrics\\]",
     Description = "Пісня про скарби морів (виконує музичне тріо з Океану)."
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4b_Lyrics",
-    DisplayName = "Очі твої зачаровують (Lyrics)",
+    DisplayName = "Очі твої зачаровують \\[Lyrics\\]",
     Description = "Пісня про кохання, яке накликали магією (виконує музичне тріо з Океану)."
   },
 }
