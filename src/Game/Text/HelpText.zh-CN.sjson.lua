@@ -7,7 +7,17 @@ local order = {
 local newData = {
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics",
+    DisplayName = "《塞壬之歌（Humming）》",
+    Description = "意欲引诱大批观众涌入的主题曲，由某支俄刻阿诺斯的乐队创作。"
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics_Actual",
     DisplayName = "《塞壬之歌（Lyrics）》",
+    Description = "意欲引诱大批观众涌入的主题曲，由某支俄刻阿诺斯的乐队创作。"
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics_Hummed",
+    DisplayName = "《塞壬之歌（Hummed Melody）》",
     Description = "意欲引诱大批观众涌入的主题曲，由某支俄刻阿诺斯的乐队创作。"
   },
   {
@@ -17,7 +27,17 @@ local newData = {
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics",
+    DisplayName = "《深海之歌（Humming）》",
+    Description = "向永远葬身海底的水手致敬的主题曲，由某支俄刻阿诺斯的乐队创作。"
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics_Actual",
     DisplayName = "《深海之歌（Lyrics）》",
+    Description = "向永远葬身海底的水手致敬的主题曲，由某支俄刻阿诺斯的乐队创作。"
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics_Hummed",
+    DisplayName = "《深海之歌（Hummed Melody）》",
     Description = "向永远葬身海底的水手致敬的主题曲，由某支俄刻阿诺斯的乐队创作。"
   },
   {
@@ -27,7 +47,17 @@ local newData = {
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics",
+    DisplayName = "《远航之歌（Humming）》",
+    Description = "向航海探索者致敬的主题曲，由某支俄刻阿诺斯的乐队创作。"
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics_Actual",
     DisplayName = "《远航之歌（Lyrics）》",
+    Description = "向航海探索者致敬的主题曲，由某支俄刻阿诺斯的乐队创作。"
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics_Hummed",
+    DisplayName = "《远航之歌（Hummed Melody）》",
     Description = "向航海探索者致敬的主题曲，由某支俄刻阿诺斯的乐队创作。"
   },
   {
@@ -37,6 +67,11 @@ local newData = {
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4a_Lyrics",
+    DisplayName = "《珍珠之歌（Humming）》",
+    Description = "关于大海的宝藏的主题曲，由某支俄刻阿诺斯的乐队创作。"
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4a_Lyrics_Actual",
     DisplayName = "《珍珠之歌（Lyrics）》",
     Description = "关于大海的宝藏的主题曲，由某支俄刻阿诺斯的乐队创作。"
   },

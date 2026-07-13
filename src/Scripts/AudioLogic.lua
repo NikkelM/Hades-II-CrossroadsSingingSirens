@@ -10,8 +10,11 @@ modutil.mod.Path.Wrap("MusicianMusic", function(base, trackName, args)
 			},
 		}
 
-		if game.AudioState.AmbientMusicId ~= nil and trackName == game.AudioState.AmbientTrackName and not game.ActiveScreens.MusicPlayer then
-			-- Don't play an identical track that's already playing
+		-- Also compare the ModsNikkelMCrossroadSingingSirens_CurrentSongName, in case the player switches between the humming and lyrical version of the same track
+		if game.AudioState.AmbientMusicId ~= nil and trackName == game.AudioState.AmbientTrackName
+				and game.AudioState.ModsNikkelMCrossroadSingingSirens_CurrentSongName == game.GameState.MusicPlayerSongName
+				and not game.ActiveScreens.MusicPlayer then
+			-- Don't restart the exact same song that's already playing
 			game.UpdateAmbientMusicParameters(customAmbientMusicParams)
 			return
 		end
@@ -32,6 +35,7 @@ modutil.mod.Path.Wrap("MusicianMusic", function(base, trackName, args)
 			Id = game.CurrentHubRoom.AmbientMusicSourceId
 		})
 		game.AudioState.AmbientTrackName = trackName
+		game.AudioState.ModsNikkelMCrossroadSingingSirens_CurrentSongName = game.GameState.MusicPlayerSongName
 		SetVolume({ Id = game.AudioState.AmbientMusicId, Value = 0 })
 
 		if songData.ModsNikkelMCrossroadSingingSirens_TrackOffset ~= nil then

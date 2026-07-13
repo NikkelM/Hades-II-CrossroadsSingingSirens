@@ -7,7 +7,19 @@ local order = {
 local newData = {
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics",
+    DisplayName = "Chant des Sirènes (Humming)",
+    Description =
+    "Un morceau destiné à attirer et envoûter un grand nombre d'auditeurs, composé par un trio musical résidant dans les profondeurs d'Océanos."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics_Actual",
     DisplayName = "Chant des Sirènes (Lyrics)",
+    Description =
+    "Un morceau destiné à attirer et envoûter un grand nombre d'auditeurs, composé par un trio musical résidant dans les profondeurs d'Océanos."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics_Hummed",
+    DisplayName = "Chant des Sirènes (Hummed Melody)",
     Description =
     "Un morceau destiné à attirer et envoûter un grand nombre d'auditeurs, composé par un trio musical résidant dans les profondeurs d'Océanos."
   },
@@ -19,7 +31,19 @@ local newData = {
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics",
+    DisplayName = "Chant des abysses (Humming)",
+    Description =
+    "Un morceau en hommage aux marins à jamais perdus en mer, composé par un trio musical résidant dans les profondeurs d'Océanos."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics_Actual",
     DisplayName = "Chant des abysses (Lyrics)",
+    Description =
+    "Un morceau en hommage aux marins à jamais perdus en mer, composé par un trio musical résidant dans les profondeurs d'Océanos."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics_Hummed",
+    DisplayName = "Chant des abysses (Hummed Melody)",
     Description =
     "Un morceau en hommage aux marins à jamais perdus en mer, composé par un trio musical résidant dans les profondeurs d'Océanos."
   },
@@ -31,7 +55,19 @@ local newData = {
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics",
+    DisplayName = "Chant des îles (Humming)",
+    Description =
+    "Un morceau invitant à naviguer vers l'inconnu, composé par un trio musical résidant dans les profondeurs d'Océanos."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics_Actual",
     DisplayName = "Chant des îles (Lyrics)",
+    Description =
+    "Un morceau invitant à naviguer vers l'inconnu, composé par un trio musical résidant dans les profondeurs d'Océanos."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics_Hummed",
+    DisplayName = "Chant des îles (Hummed Melody)",
     Description =
     "Un morceau invitant à naviguer vers l'inconnu, composé par un trio musical résidant dans les profondeurs d'Océanos."
   },
@@ -43,6 +79,12 @@ local newData = {
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4a_Lyrics",
+    DisplayName = "Chant des perles (Humming)",
+    Description =
+    "Un morceau évoquant des trésors sous-marins, composé par un trio musical résidant dans les profondeurs d'Océanos."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4a_Lyrics_Actual",
     DisplayName = "Chant des perles (Lyrics)",
     Description =
     "Un morceau évoquant des trésors sous-marins, composé par un trio musical résidant dans les profondeurs d'Océanos."

@@ -6,7 +6,7 @@ schemaVersion = "0.0.1"
 namespace = "NikkelM"
 name = "Crossroads_Singing_Sirens"
 versionNumber = "1.0.4"
-description = "Unlock lyrical versions of the Sirens' songs at the Music Maker in the Crossroads."
+description = "Unlock 15 new lyrical and hummed versions of the Sirens' songs from Oceanus at the Music Maker in the Crossroads."
 websiteUrl = "https://github.com/NikkelM/Hades-II-CrossroadsSingingSirens"
 containsNsfwContent = false
 

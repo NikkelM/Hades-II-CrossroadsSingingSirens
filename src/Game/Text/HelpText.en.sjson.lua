@@ -7,7 +7,17 @@ local order = {
 local newData = {
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics",
+    DisplayName = "Song of the Sirens (Humming)",
+    Description = "Theme intended to lure a sizeable and captive audience, by an Oceanus-based musical trio."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics_Actual",
     DisplayName = "Song of the Sirens (Lyrics)",
+    Description = "Theme intended to lure a sizeable and captive audience, by an Oceanus-based musical trio."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics_Hummed",
+    DisplayName = "Song of the Sirens (Hummed Melody)",
     Description = "Theme intended to lure a sizeable and captive audience, by an Oceanus-based musical trio."
   },
   {
@@ -17,7 +27,17 @@ local newData = {
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics",
+    DisplayName = "Song of the Deep (Humming)",
+    Description = "Theme in tribute to sailors forever lost at sea, by an Oceanus-based musical trio."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics_Actual",
     DisplayName = "Song of the Deep (Lyrics)",
+    Description = "Theme in tribute to sailors forever lost at sea, by an Oceanus-based musical trio."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics_Hummed",
+    DisplayName = "Song of the Deep (Hummed Melody)",
     Description = "Theme in tribute to sailors forever lost at sea, by an Oceanus-based musical trio."
   },
   {
@@ -27,7 +47,17 @@ local newData = {
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics",
+    DisplayName = "Song of the Isles (Humming)",
+    Description = "Theme in tribute to nautical exploration, by an Oceanus-based musical trio."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics_Actual",
     DisplayName = "Song of the Isles (Lyrics)",
+    Description = "Theme in tribute to nautical exploration, by an Oceanus-based musical trio."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics_Hummed",
+    DisplayName = "Song of the Isles (Hummed Melody)",
     Description = "Theme in tribute to nautical exploration, by an Oceanus-based musical trio."
   },
   {
@@ -37,6 +67,11 @@ local newData = {
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4a_Lyrics",
+    DisplayName = "Song of the Pearls (Humming)",
+    Description = "Theme invoking treasures of the sea, by an Oceanus-based musical trio."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4a_Lyrics_Actual",
     DisplayName = "Song of the Pearls (Lyrics)",
     Description = "Theme invoking treasures of the sea, by an Oceanus-based musical trio."
   },

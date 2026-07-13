@@ -7,7 +7,17 @@ local order = {
 local newData = {
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics",
+    DisplayName = "Песня сирен (Humming)",
+    Description = "Музыкальная тема, с помощью которой трио из Океана приманило свою огромную аудиторию."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics_Actual",
     DisplayName = "Песня сирен (Lyrics)",
+    Description = "Музыкальная тема, с помощью которой трио из Океана приманило свою огромную аудиторию."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics_Hummed",
+    DisplayName = "Песня сирен (Hummed Melody)",
     Description = "Музыкальная тема, с помощью которой трио из Океана приманило свою огромную аудиторию."
   },
   {
@@ -17,7 +27,17 @@ local newData = {
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics",
+    DisplayName = "Песня глубин (Humming)",
+    Description = "Музыкальная тема, посвящённая погибшим морякам. Исполняется трио из Океана."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics_Actual",
     DisplayName = "Песня глубин (Lyrics)",
+    Description = "Музыкальная тема, посвящённая погибшим морякам. Исполняется трио из Океана."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics_Hummed",
+    DisplayName = "Песня глубин (Hummed Melody)",
     Description = "Музыкальная тема, посвящённая погибшим морякам. Исполняется трио из Океана."
   },
   {
@@ -27,7 +47,17 @@ local newData = {
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics",
+    DisplayName = "Песнь островов (Humming)",
+    Description = "Музыкальная тема, посвящённая морским странствиям. Исполняется трио из Океана."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics_Actual",
     DisplayName = "Песнь островов (Lyrics)",
+    Description = "Музыкальная тема, посвящённая морским странствиям. Исполняется трио из Океана."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics_Hummed",
+    DisplayName = "Песнь островов (Hummed Melody)",
     Description = "Музыкальная тема, посвящённая морским странствиям. Исполняется трио из Океана."
   },
   {
@@ -37,6 +67,11 @@ local newData = {
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4a_Lyrics",
+    DisplayName = "Песнь жемчуга (Humming)",
+    Description = "Музыкальная тема морских сокровищ, исполняемая трио из Океана."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4a_Lyrics_Actual",
     DisplayName = "Песнь жемчуга (Lyrics)",
     Description = "Музыкальная тема морских сокровищ, исполняемая трио из Океана."
   },

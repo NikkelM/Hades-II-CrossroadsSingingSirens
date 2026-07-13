@@ -7,7 +7,19 @@ local order = {
 local newData = {
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics",
+    DisplayName = "La canción de las Sirenas (Humming)",
+    Description =
+    "Canción idónea para atraer y cautivar a un público considerable, compuesta por un trío musical del Océano."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics_Actual",
     DisplayName = "La canción de las Sirenas (Lyrics)",
+    Description =
+    "Canción idónea para atraer y cautivar a un público considerable, compuesta por un trío musical del Océano."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics_Hummed",
+    DisplayName = "La canción de las Sirenas (Hummed Melody)",
     Description =
     "Canción idónea para atraer y cautivar a un público considerable, compuesta por un trío musical del Océano."
   },
@@ -18,7 +30,19 @@ local newData = {
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics",
+    DisplayName = "Canto de los abismos (Humming)",
+    Description =
+    "Canción que rinde homenaje a los marineros perdidos en el mar, compuesta por un trío musical del Océano."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics_Actual",
     DisplayName = "Canto de los abismos (Lyrics)",
+    Description =
+    "Canción que rinde homenaje a los marineros perdidos en el mar, compuesta por un trío musical del Océano."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics_Hummed",
+    DisplayName = "Canto de los abismos (Hummed Melody)",
     Description =
     "Canción que rinde homenaje a los marineros perdidos en el mar, compuesta por un trío musical del Océano."
   },
@@ -29,7 +53,17 @@ local newData = {
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics",
+    DisplayName = "Canción de las Islas (Humming)",
+    Description = "Canción en homenaje a las expediciones náuticas, compuesta por un trío musical del Océano."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics_Actual",
     DisplayName = "Canción de las Islas (Lyrics)",
+    Description = "Canción en homenaje a las expediciones náuticas, compuesta por un trío musical del Océano."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics_Hummed",
+    DisplayName = "Canción de las Islas (Hummed Melody)",
     Description = "Canción en homenaje a las expediciones náuticas, compuesta por un trío musical del Océano."
   },
   {
@@ -40,6 +74,11 @@ local newData = {
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4a_Lyrics",
+    DisplayName = "Canción de las perlas (Humming)",
+    Description = "Canción que evoca los tesoros del mar, compuesta por un trío musical del Océano."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4a_Lyrics_Actual",
     DisplayName = "Canción de las perlas (Lyrics)",
     Description = "Canción que evoca los tesoros del mar, compuesta por un trío musical del Océano."
   },

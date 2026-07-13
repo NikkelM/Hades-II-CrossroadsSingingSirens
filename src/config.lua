@@ -5,7 +5,7 @@ local config = {
 
 local configDesc = {
   enabled = "Whether the mod is enabled or not.";
-  unlockEverything = "NOT REVERSIBLE! When set to true, will immediately unlock all songs added by this mod."
+  unlockEverything = "NOT REVERSIBLE! When enabled, this will immediately unlock all songs added by this mod the next time you load your save."
 }
 
 return config, configDesc

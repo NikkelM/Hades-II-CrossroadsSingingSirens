@@ -1,10 +1,15 @@
 # Changelog
 
-## v1.0.4
+## v2.0.0
 
 <!--Releasenotes start-->
-- Fixed an issue where using `unlockEverything` to unlock all songs immediately would not add them to a secondary internal table tracking song unlocks.
+- Added proper "Lyrics" versions of the songs the Sirens sing in Oceanus (until now, only the early-biome humming versions were available and incorrectly named "Lyrics"). The existing tracks have been renamed to "Humming" versions and remain unlocked if you have already bought them.
+- Added "Hummed Melody" versions of the same songs. These are the same arrangement as the "Lyrics" versions, but hummed instead of sung. They unlock after you have bought the "Lyrics" version of a track.
 <!--Releasenotes end-->
+
+## v1.0.4
+
+- Fixed an issue where using `unlockEverything` to unlock all songs immediately would not add them to a secondary internal table tracking song unlocks.
 
 ## v1.0.3
 

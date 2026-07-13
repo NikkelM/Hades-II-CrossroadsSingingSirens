@@ -7,7 +7,17 @@ local order = {
 local newData = {
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics",
+    DisplayName = "Canto das Sereias (Humming)",
+    Description = "Tema para atrair e cativar um público considerável, composto por um trio musical que habita o Oceano."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics_Actual",
     DisplayName = "Canto das Sereias (Lyrics)",
+    Description = "Tema para atrair e cativar um público considerável, composto por um trio musical que habita o Oceano."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics_Hummed",
+    DisplayName = "Canto das Sereias (Hummed Melody)",
     Description = "Tema para atrair e cativar um público considerável, composto por um trio musical que habita o Oceano."
   },
   {
@@ -17,7 +27,17 @@ local newData = {
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics",
+    DisplayName = "Canto das Profundezas (Humming)",
+    Description = "Tema dedicado aos marujos que perdem a vida no mar, composto por um trio musical que habita o Oceano."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics_Actual",
     DisplayName = "Canto das Profundezas (Lyrics)",
+    Description = "Tema dedicado aos marujos que perdem a vida no mar, composto por um trio musical que habita o Oceano."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics_Hummed",
+    DisplayName = "Canto das Profundezas (Hummed Melody)",
     Description = "Tema dedicado aos marujos que perdem a vida no mar, composto por um trio musical que habita o Oceano."
   },
   {
@@ -27,7 +47,17 @@ local newData = {
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics",
+    DisplayName = "Canto das Ilhas (Humming)",
+    Description = "Tema dedicado à exploração dos mares, composto por um trio musical que habita o Oceano."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics_Actual",
     DisplayName = "Canto das Ilhas (Lyrics)",
+    Description = "Tema dedicado à exploração dos mares, composto por um trio musical que habita o Oceano."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics_Hummed",
+    DisplayName = "Canto das Ilhas (Hummed Melody)",
     Description = "Tema dedicado à exploração dos mares, composto por um trio musical que habita o Oceano."
   },
   {
@@ -38,6 +68,11 @@ local newData = {
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4a_Lyrics",
+    DisplayName = "Canto das Pérolas (Humming)",
+    Description = "Tema que invoca tesouros do mar, composto por um trio musical que habita o Oceano."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4a_Lyrics_Actual",
     DisplayName = "Canto das Pérolas (Lyrics)",
     Description = "Tema que invoca tesouros do mar, composto por um trio musical que habita o Oceano."
   },

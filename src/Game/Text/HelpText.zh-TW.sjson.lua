@@ -7,7 +7,17 @@ local order = {
 local newData = {
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics",
+    DisplayName = "〈海妖之歌（Humming）〉",
+    Description = "由歐開諾斯的三人樂團創作的音樂，旨在吸引大量觀眾，不讓任何人離開。"
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics_Actual",
     DisplayName = "〈海妖之歌（Lyrics）〉",
+    Description = "由歐開諾斯的三人樂團創作的音樂，旨在吸引大量觀眾，不讓任何人離開。"
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics_Hummed",
+    DisplayName = "〈海妖之歌（Hummed Melody）〉",
     Description = "由歐開諾斯的三人樂團創作的音樂，旨在吸引大量觀眾，不讓任何人離開。"
   },
   {
@@ -17,7 +27,17 @@ local newData = {
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics",
+    DisplayName = "〈幽深海底（Humming）〉",
+    Description = "由歐開諾斯的三人樂團創作的音樂，獻給永遠迷失於海上的水手。"
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics_Actual",
     DisplayName = "〈幽深海底（Lyrics）〉",
+    Description = "由歐開諾斯的三人樂團創作的音樂，獻給永遠迷失於海上的水手。"
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics_Hummed",
+    DisplayName = "〈幽深海底（Hummed Melody）〉",
     Description = "由歐開諾斯的三人樂團創作的音樂，獻給永遠迷失於海上的水手。"
   },
   {
@@ -27,7 +47,17 @@ local newData = {
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics",
+    DisplayName = "〈群嶼之歌（Humming）〉",
+    Description = "由歐開諾斯的三人樂團創作的音樂，向航海探險致敬。"
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics_Actual",
     DisplayName = "〈群嶼之歌（Lyrics）〉",
+    Description = "由歐開諾斯的三人樂團創作的音樂，向航海探險致敬。"
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics_Hummed",
+    DisplayName = "〈群嶼之歌（Hummed Melody）〉",
     Description = "由歐開諾斯的三人樂團創作的音樂，向航海探險致敬。"
   },
   {
@@ -37,6 +67,11 @@ local newData = {
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4a_Lyrics",
+    DisplayName = "〈寶珠之歌（Humming）〉",
+    Description = "由歐開諾斯的三人樂團創作的音樂，靈感源自海中珍寶。"
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4a_Lyrics_Actual",
     DisplayName = "〈寶珠之歌（Lyrics）〉",
     Description = "由歐開諾斯的三人樂團創作的音樂，靈感源自海中珍寶。"
   },

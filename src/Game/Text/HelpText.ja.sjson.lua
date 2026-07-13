@@ -7,7 +7,17 @@ local order = {
 local newData = {
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics",
+    DisplayName = "セイレンの歌（Humming）",
+    Description = "オケアノスで活動する3名の楽士が、大勢の観客を釣り込むために強制的に聴かせる調べ。"
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics_Actual",
     DisplayName = "セイレンの歌（Lyrics）",
+    Description = "オケアノスで活動する3名の楽士が、大勢の観客を釣り込むために強制的に聴かせる調べ。"
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics_Hummed",
+    DisplayName = "セイレンの歌（Hummed Melody）",
     Description = "オケアノスで活動する3名の楽士が、大勢の観客を釣り込むために強制的に聴かせる調べ。"
   },
   {
@@ -17,7 +27,17 @@ local newData = {
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics",
+    DisplayName = "深淵の歌（Humming）",
+    Description = "オケアノスで活動する3名の楽士が、\n海の藻くずとなった船乗りたちに捧げる調べ。"
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics_Actual",
     DisplayName = "深淵の歌（Lyrics）",
+    Description = "オケアノスで活動する3名の楽士が、\n海の藻くずとなった船乗りたちに捧げる調べ。"
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics_Hummed",
+    DisplayName = "深淵の歌（Hummed Melody）",
     Description = "オケアノスで活動する3名の楽士が、\n海の藻くずとなった船乗りたちに捧げる調べ。"
   },
   {
@@ -27,7 +47,17 @@ local newData = {
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics",
+    DisplayName = "島々の歌（Humming）",
+    Description = "オケアノスで活動する3名の楽士が、\n海の旅を唄った調べ。"
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics_Actual",
     DisplayName = "島々の歌（Lyrics）",
+    Description = "オケアノスで活動する3名の楽士が、\n海の旅を唄った調べ。"
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics_Hummed",
+    DisplayName = "島々の歌（Hummed Melody）",
     Description = "オケアノスで活動する3名の楽士が、\n海の旅を唄った調べ。"
   },
   {
@@ -37,6 +67,11 @@ local newData = {
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4a_Lyrics",
+    DisplayName = "真珠の歌（Humming）",
+    Description = "オケアノスで活動する3名の楽士が唄う、\n海の宝を思わせる調べ。"
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4a_Lyrics_Actual",
     DisplayName = "真珠の歌（Lyrics）",
     Description = "オケアノスで活動する3名の楽士が唄う、\n海の宝を思わせる調べ。"
   },

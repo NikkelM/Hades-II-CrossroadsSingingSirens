@@ -7,7 +7,17 @@ local order = {
 local newData = {
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics",
+    DisplayName = "Пісня сирен (Humming)",
+    Description = "Пісня для заманювання захоплених натовпів на концерти (створена музичним тріо з Океану)."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics_Actual",
     DisplayName = "Пісня сирен (Lyrics)",
+    Description = "Пісня для заманювання захоплених натовпів на концерти (створена музичним тріо з Океану)."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics_Hummed",
+    DisplayName = "Пісня сирен (Hummed Melody)",
     Description = "Пісня для заманювання захоплених натовпів на концерти (створена музичним тріо з Океану)."
   },
   {
@@ -17,7 +27,17 @@ local newData = {
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics",
+    DisplayName = "Пісня глибин (Humming)",
+    Description = "Пісня про моряків, що назавжди лишилися в морі (виконує музичне тріо з Океану)."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics_Actual",
     DisplayName = "Пісня глибин (Lyrics)",
+    Description = "Пісня про моряків, що назавжди лишилися в морі (виконує музичне тріо з Океану)."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics_Hummed",
+    DisplayName = "Пісня глибин (Hummed Melody)",
     Description = "Пісня про моряків, що назавжди лишилися в морі (виконує музичне тріо з Океану)."
   },
   {
@@ -27,7 +47,17 @@ local newData = {
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics",
+    DisplayName = "Пісня островів (Humming)",
+    Description = "Пісня про натхненне мореплавство (виконує музичне тріо з Океану)."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics_Actual",
     DisplayName = "Пісня островів (Lyrics)",
+    Description = "Пісня про натхненне мореплавство (виконує музичне тріо з Океану)."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics_Hummed",
+    DisplayName = "Пісня островів (Hummed Melody)",
     Description = "Пісня про натхненне мореплавство (виконує музичне тріо з Океану)."
   },
   {
@@ -37,6 +67,11 @@ local newData = {
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4a_Lyrics",
+    DisplayName = "Пісня перлів (Humming)",
+    Description = "Пісня про скарби морів (виконує музичне тріо з Океану)."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4a_Lyrics_Actual",
     DisplayName = "Пісня перлів (Lyrics)",
     Description = "Пісня про скарби морів (виконує музичне тріо з Океану)."
   },

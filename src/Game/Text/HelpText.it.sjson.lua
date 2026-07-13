@@ -7,7 +7,17 @@ local order = {
 local newData = {
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics",
+    DisplayName = "Canto delle Sirene (Humming)",
+    Description = "Tema volto a irretire un folto pubblico di prede per un trio musicale residente dell'Oceano."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics_Actual",
     DisplayName = "Canto delle Sirene (Lyrics)",
+    Description = "Tema volto a irretire un folto pubblico di prede per un trio musicale residente dell'Oceano."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics_Hummed",
+    DisplayName = "Canto delle Sirene (Hummed Melody)",
     Description = "Tema volto a irretire un folto pubblico di prede per un trio musicale residente dell'Oceano."
   },
   {
@@ -17,7 +27,17 @@ local newData = {
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics",
+    DisplayName = "Canto degli Abissi (Humming)",
+    Description = "Tema in tributo ai marinai persi per sempre in mare, da un trio musicale residente nell'Oceano."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics_Actual",
     DisplayName = "Canto degli Abissi (Lyrics)",
+    Description = "Tema in tributo ai marinai persi per sempre in mare, da un trio musicale residente nell'Oceano."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics_Hummed",
+    DisplayName = "Canto degli Abissi (Hummed Melody)",
     Description = "Tema in tributo ai marinai persi per sempre in mare, da un trio musicale residente nell'Oceano."
   },
   {
@@ -27,7 +47,17 @@ local newData = {
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics",
+    DisplayName = "Canto delle Isole (Humming)",
+    Description = "Tema in tributo all'esplorazione nautica, da un trio musicale residente nell'Oceano."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics_Actual",
     DisplayName = "Canto delle Isole (Lyrics)",
+    Description = "Tema in tributo all'esplorazione nautica, da un trio musicale residente nell'Oceano."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics_Hummed",
+    DisplayName = "Canto delle Isole (Hummed Melody)",
     Description = "Tema in tributo all'esplorazione nautica, da un trio musicale residente nell'Oceano."
   },
   {
@@ -37,6 +67,11 @@ local newData = {
   },
   {
     Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4a_Lyrics",
+    DisplayName = "Canto delle Perle (Humming)",
+    Description = "Tema che evoca immagini di tesori sommersi, da un trio musicale residente dell'Oceano."
+  },
+  {
+    Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4a_Lyrics_Actual",
     DisplayName = "Canto delle Perle (Lyrics)",
     Description = "Tema che evoca immagini di tesori sommersi, da un trio musicale residente dell'Oceano."
   },

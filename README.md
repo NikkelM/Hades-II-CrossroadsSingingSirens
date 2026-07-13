@@ -1,9 +1,11 @@
 # Crossroad Singing Sirens
 
-This mod adds a new lyrical version of each of the songs by Scylla and the Sirens to the Crossroads' Music Maker, allowing you to choose between the two versions whenever you want.
-To unlock a lyrical version of a song, you first need to own the instrumental version.
+This mod adds a total of **15** new lyrical and hummed versions of the songs by Scylla and the Sirens to the Crossroads' Music Maker, allowing you to choose between them whenever you want.
+The new versions include the early-biome hummed tracks, as well as a hummed and lyrical version of the late-biome songs.
 
-![Unlock new songs with the Music Maker](https://github.com/user-attachments/assets/31ac2acc-8e3f-4a8f-975f-5e129f8da2c8)
+To unlock a lyrical or hummed version of a song, you first need to own the instrumental version.
+
+![Unlock new songs with the Music Maker](img/screenshots/music_maker_screen.jpg)
 
 ## Other related mods
 
