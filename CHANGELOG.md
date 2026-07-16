@@ -1,11 +1,16 @@
 # Changelog
 
-## v2.0.1
+## v2.1.0
 
 <!--Releasenotes start-->
+- Whens switching between different versions of the same underlying song, the track will no longer start from the beginning but instead seemlessly switch between the two versions.
+- Migrated the mod to the new Music Maker API.
+<!--Releasenotes end-->
+
+## v2.0.1
+
 - Renamed "Hummed Melody" to "Hummed Lyrics" for consistency.
 - Use square brackets instead of parantheses for consistency.
-<!--Releasenotes end-->
 
 ## v2.0.0
 

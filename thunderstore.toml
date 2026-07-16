@@ -6,17 +6,18 @@ schemaVersion = "0.0.1"
 namespace = "NikkelM"
 name = "Crossroads_Singing_Sirens"
 versionNumber = "2.0.0"
-description = "Unlock 15 new lyrical and hummed versions of the Sirens' songs from Oceanus at the Music Maker in the Crossroads."
+description = "Unlock 15 new lyrical and hummed versions of the songs sung by Scylla and the Sirens at the Music Maker in the Crossroads."
 websiteUrl = "https://github.com/NikkelM/Hades-II-CrossroadsSingingSirens"
 containsNsfwContent = false
 
 [package.dependencies]
-Hell2Modding-Hell2Modding = "1.0.79"
+Hell2Modding-Hell2Modding = "1.0.105"
 LuaENVY-ENVY = "1.2.0"
 SGG_Modding-Chalk = "2.1.1"
 SGG_Modding-ReLoad = "1.0.2"
-SGG_Modding-SJSON = "1.0.0"
+SGG_Modding-SJSON = "1.0.1"
 SGG_Modding-ModUtil = "4.0.1"
+NikkelM-Music_Maker_API = "1.0.0"
 
 
 [build]

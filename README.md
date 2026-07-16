@@ -11,8 +11,9 @@ To unlock a lyrical or hummed version of a song, you first need to own the instr
 
 To further improve your musical experience in the Crossroads, consider installing some of my other mods:
 
-- [Randomize Favourite Songs](https://thunderstore.io/c/hades-ii/p/NikkelM/Randomize_Favorite_Songs/) allows you to favourite songs with the Music Maker, and randomize only from those whenever you return to the Crossroads.
-- [Hades OST for the Music Maker](https://thunderstore.io/c/hades-ii/p/NikkelM/Hades_OST_for_the_Music_Maker/) adds songs from the Hades soundtrack (as played by Orpheus) as unlockables to the Music Maker.
+- [Randomize Favourite Songs](https://thunderstore.io/c/hades-ii/p/NikkelM/Randomize_Favorite_Songs/) allows you to favourite songs with the Music Maker, and randomize only from those whenever you return to the Crossroads. Supports all songs added by other mods.
+- [Crossroads Singing Silver Sisters](https://thunderstore.io/c/hades-ii/p/NikkelM/Crossroads_Singing_Silver_Sisters/) adds lyrical versions of the songs Artemis, Melinoë and Apollo sing in various scenes in the game to the Music Maker.
+- [Hades OST for the Music Maker](https://thunderstore.io/c/hades-ii/p/NikkelM/Hades_OST_for_the_Music_Maker/) adds songs from the Hades soundtrack (as played by Orpheus) to the Music Maker.
 
 ## Configuration
 
