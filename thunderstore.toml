@@ -6,7 +6,7 @@ schemaVersion = "0.0.1"
 namespace = "NikkelM"
 name = "Crossroads_Singing_Sirens"
 versionNumber = "2.0.0"
-description = "Unlock 15 new lyrical and hummed versions of the songs sung by Scylla and the Sirens at the Music Maker in the Crossroads."
+description = "Unlock 12 new lyrical and hummed versions of the songs sung by Scylla and the Sirens at the Music Maker in the Crossroads."
 websiteUrl = "https://github.com/NikkelM/Hades-II-CrossroadsSingingSirens"
 containsNsfwContent = false
 
@@ -36,6 +36,10 @@ target = "./LICENSE"
 [[build.copy]]
 source = "./src"
 target = "./plugins"
+
+[[build.copy]]
+source = "./data"
+target = "./plugins_data"
 
 
 [publish]

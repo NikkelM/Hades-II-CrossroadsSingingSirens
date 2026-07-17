@@ -1,0 +1,5 @@
+{eeed52c1-90be-4d10-b34d-e4794bbeabae} bank:/ModsNikkelMCrossroadsSingingSirensMusic
+{19edceec-e7c1-4252-a7c5-ab4cdc528818} event:/Song of the Deep Scylla2
+{6e6e3d16-305f-4ad0-9067-b63caf0b7423} event:/Song of the Isles Scylla3
+{56e611e3-6395-4be4-b8f8-31b7f83b4743} event:/Song of the Pearls Scylla4
+{19832ec2-145b-4654-b956-7d1538e42942} event:/Song of the Sirens Scylla1

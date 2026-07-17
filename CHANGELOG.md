@@ -3,14 +3,12 @@
 ## v2.1.0
 
 <!--Releasenotes start-->
-- Whens switching between different versions of the same underlying song, the track will no longer start from the beginning but instead seemlessly switch between the two versions.
+- When switching between different versions of the same underlying song, the track will no longer start from the beginning but instead seemlessly switch between the two versions.
+- Fixed an issue where after the lyrical version of an in-biome track played, the humming version would also play before looping back.
+- Renamed "Hummed Melody" to "Humming" and removed the original broken "Humming" versions.
+- Use square brackets instead of parantheses for consistency.
 - Migrated the mod to the new Music Maker API.
 <!--Releasenotes end-->
-
-## v2.0.1
-
-- Renamed "Hummed Melody" to "Hummed Lyrics" for consistency.
-- Use square brackets instead of parantheses for consistency.
 
 ## v2.0.0
 

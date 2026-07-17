@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{88fb0ac9-854e-4016-83c0-213b19d5f53f}">
+		<property name="assetPath">
+			<value>Scylla1_VOX_GUITAR.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>647.63365079365076</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a3b346cc-7f6c-4b51-acb8-491971281eb5}</destination>
+		</relationship>
+	</object>
+</objects>

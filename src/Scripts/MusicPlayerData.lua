@@ -1,14 +1,31 @@
+-- Group the sung and hummed versions of each song so switching between them carries the playback position
+MusicMakerAPI.RegisterVersionGroup({ AnchorSong = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics", LoopLength = 364.7 })
+MusicMakerAPI.RegisterVersionGroup({ AnchorSong = "Song_Scylla1b", LoopLength = 247 })
+MusicMakerAPI.RegisterVersionGroup({ AnchorSong = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics", LoopLength = 236 })
+-- Vanilla has another intro, so we can't fade
+-- MusicMakerAPI.RegisterVersionGroup({ AnchorSong = "Song_Scylla2b", LoopLength = 204 })
+MusicMakerAPI.RegisterVersionGroup({ AnchorSong = "Song_Scylla3a", LoopLength = 255 })
+MusicMakerAPI.RegisterVersionGroup({ AnchorSong = "Song_Scylla3b", LoopLength = 270 })
+MusicMakerAPI.RegisterVersionGroup({ AnchorSong = "Song_Scylla4a", LoopLength = 230.2 })
+MusicMakerAPI.RegisterVersionGroup({ AnchorSong = "Song_Scylla4b", LoopLength = 207 })
+
+MusicMakerAPI.RegisterSoundBank(
+	rom.path.combine(_PLUGIN.plugins_data_mod_folder_path, "Audio\\ModsNikkelMCrossroadsSingingSirensMusic.bank"))
+
 -- Descriptions come from the matching base-game songs
 local scylla1aDescription = {
 	en = "Theme intended to lure a sizeable and captive audience, by an Oceanus-based musical trio.",
 	de = "Ein Lied von einem Musik-Trio aus dem Okeanos, das ein großes, begeistertes Publikum anlocken soll.",
-	el = "Μουσική που αποσκοπεί να δελεάσει και να μαγέψει ένα μεγάλο κοινό, με εκτέλεση από ένα μουσικό τρίο που κατοικοεδρεύει στον Ωκεανό.",
+	el =
+	"Μουσική που αποσκοπεί να δελεάσει και να μαγέψει ένα μεγάλο κοινό, με εκτέλεση από ένα μουσικό τρίο που κατοικοεδρεύει στον Ωκεανό.",
 	es = "Canción idónea para atraer y cautivar a un público considerable, compuesta por un trío musical del Océano.",
-	fr = "Un morceau destiné à attirer et envoûter un grand nombre d'auditeurs, composé par un trio musical résidant dans les profondeurs d'Océanos.",
+	fr =
+	"Un morceau destiné à attirer et envoûter un grand nombre d'auditeurs, composé par un trio musical résidant dans les profondeurs d'Océanos.",
 	it = "Tema volto a irretire un folto pubblico di prede per un trio musicale residente dell'Oceano.",
 	ja = "オケアノスで活動する3名の楽士が、大勢の観客を釣り込むために強制的に聴かせる調べ。",
 	ko = "오케아노스의 삼인조 악단이 상당수의 관객을 자의에 반해 유인하기 위한 음악입니다.",
-	pl = "Pieśń skomponowana z myślą o oczarowaniu jak największej publiczności przez muzyczne trio zamieszkujące głębiny Okeanosu.",
+	pl =
+	"Pieśń skomponowana z myślą o oczarowaniu jak największej publiczności przez muzyczne trio zamieszkujące głębiny Okeanosu.",
 	["pt-BR"] = "Tema para atrair e cativar um público considerável, composto por um trio musical que habita o Oceano.",
 	ru = "Музыкальная тема, с помощью которой трио из Океана приманило свою огромную аудиторию.",
 	tr = "Okeanos çıkışlı müzik üçlüsünün, geniş ve sadık bir dinleyici kitlesini çekmeyi amaçlayan tema müziği.",
@@ -19,13 +36,16 @@ local scylla1aDescription = {
 local scylla1bDescription = {
 	en = "Theme performed most nights in a corner of the Underworld, by an Oceanus-based musical trio.",
 	de = "Ein Lied von einem Musik-Trio aus dem Okeanos, das dort fast jede Nacht aufgeführt wird.",
-	el = "Μουσική που εκτελείται τις περισσότερες βραδιές σε μια γωνία του Κάτω Κόσμου από ένα μουσικό τρίο που κατοικοεδρεύει στον Ωκεανό.",
+	el =
+	"Μουσική που εκτελείται τις περισσότερες βραδιές σε μια γωνία του Κάτω Κόσμου από ένα μουσικό τρίο που κατοικοεδρεύει στον Ωκεανό.",
 	es = "Canción interpretada la mayoría de noches en un rincón del Inframundo por un trío musical del Océano.",
-	fr = "Un morceau résonnant souvent dans une certaine partie des Enfers, composé par un trio musical résidant dans les profondeurs d'Océanos.",
+	fr =
+	"Un morceau résonnant souvent dans une certaine partie des Enfers, composé par un trio musical résidant dans les profondeurs d'Océanos.",
 	it = "Tema spesso eseguito in un angolo dell'Oltretomba da un trio musicale residente nell'Oceano.",
 	ja = "オケアノスで活動する3名の楽士が、\n冥界の片隅でほぼ毎晩奏でる調べ。",
 	ko = "오케아노스의 삼인조 악단이 지하세계 변두리에서 거의 매일 밤 연주하는 음악입니다.",
-	pl = "Pieśń słyszana niemal każdej nocy w pewnym zakątku. Została skomponowana przez muzyczne trio zamieszkujące głębiny Okeanosu.",
+	pl =
+	"Pieśń słyszana niemal każdej nocy w pewnym zakątku. Została skomponowana przez muzyczne trio zamieszkujące głębiny Okeanosu.",
 	["pt-BR"] = "Tema muito interpretado num recanto do Submundo, composto por um trio musical que habita o Oceano.",
 	ru = "Музыкальная тема, ночь за ночью исполняемая в уголке Подземного мира трио из Океана.",
 	tr = "Okeanos çıkışlı müzik üçlüsünün, Yer Altı Dünyası'nın bir köşesinde sıkça çaldığı tema müziği.",
@@ -36,13 +56,16 @@ local scylla1bDescription = {
 local scylla2aDescription = {
 	en = "Theme in tribute to sailors forever lost at sea, by an Oceanus-based musical trio.",
 	de = "Ein Lied zu Ehren der auf See verschollenen Matrosen von einem Musik-Trio aus dem Okeanos.",
-	el = "Μουσική προς τιμήν των ναυτικών που χάθηκαν για πάντα στη θάλασσα, με εκτέλεση από ένα μουσικό τρίο που κατοικοεδρεύει στον Ωκεανό.",
+	el =
+	"Μουσική προς τιμήν των ναυτικών που χάθηκαν για πάντα στη θάλασσα, με εκτέλεση από ένα μουσικό τρίο που κατοικοεδρεύει στον Ωκεανό.",
 	es = "Canción que rinde homenaje a los marineros perdidos en el mar, compuesta por un trío musical del Océano.",
-	fr = "Un morceau en hommage aux marins à jamais perdus en mer, composé par un trio musical résidant dans les profondeurs d'Océanos.",
+	fr =
+	"Un morceau en hommage aux marins à jamais perdus en mer, composé par un trio musical résidant dans les profondeurs d'Océanos.",
 	it = "Tema in tributo ai marinai persi per sempre in mare, da un trio musicale residente nell'Oceano.",
 	ja = "オケアノスで活動する3名の楽士が、\n海の藻くずとなった船乗りたちに捧げる調べ。",
 	ko = "오케아노스의 삼인조 악단이 바다에서 영영 길을 잃은 선원들에게 바치는 음악입니다.",
-	pl = "Pieśń będąca hołdem dla żeglarzy na zawsze zaginionych na morzu skomponowana przez muzyczne trio zamieszkujące głębiny Okeanosu.",
+	pl =
+	"Pieśń będąca hołdem dla żeglarzy na zawsze zaginionych na morzu skomponowana przez muzyczne trio zamieszkujące głębiny Okeanosu.",
 	["pt-BR"] = "Tema dedicado aos marujos que perdem a vida no mar, composto por um trio musical que habita o Oceano.",
 	ru = "Музыкальная тема, посвящённая погибшим морякам. Исполняется трио из Океана.",
 	tr = "Okeanos çıkışlı müzik üçlüsünün, denize açılıp kaybolan denizcilere ithaf ettiği tema müziği.",
@@ -55,7 +78,8 @@ local scylla2bDescription = {
 	de = "Ein Lied mit einem gewissen rachsüchtigen Unterton von einem Musik-Trio aus dem Okeanos.",
 	el = "Μουσική με ελαφρώς εκδικητική χροιά, που εκτελείται από ένα μουσικό τρίο που κατοικοεδρεύει στον Ωκεανό.",
 	es = "Canción con algunos matices vengativos, compuesta por un trío musical del Océano.",
-	fr = "Un morceau évoquant vraisemblablement une certaine rancœur, composé par un trio musical résidant dans les profondeurs d'Océanos.",
+	fr =
+	"Un morceau évoquant vraisemblablement une certaine rancœur, composé par un trio musical résidant dans les profondeurs d'Océanos.",
 	it = "Tema dai toni vendicativi non molto velati, eseguito da un trio musicale residente nell'Oceano.",
 	ja = "オケアノスで活動する3名の楽士が奏でる、\nそこはかとなく悪意の感じられる調べ。",
 	ko = "오케아노스의 삼인조 악단이 품은 앙심이 다소 묻어나는 음악입니다.",
@@ -72,11 +96,13 @@ local scylla3aDescription = {
 	de = "Ein Lied über die Seefahrt von einem Musik-Trio aus dem Okeanos.",
 	el = "Μουσική προς τιμήν της ναυτικής εξερεύνησης, με εκτέλεση από ένα μουσικό τρίο που κατοικοεδρεύει στον Ωκεανό.",
 	es = "Canción en homenaje a las expediciones náuticas, compuesta por un trío musical del Océano.",
-	fr = "Un morceau invitant à naviguer vers l'inconnu, composé par un trio musical résidant dans les profondeurs d'Océanos.",
+	fr =
+	"Un morceau invitant à naviguer vers l'inconnu, composé par un trio musical résidant dans les profondeurs d'Océanos.",
 	it = "Tema in tributo all'esplorazione nautica, da un trio musicale residente nell'Oceano.",
 	ja = "オケアノスで活動する3名の楽士が、\n海の旅を唄った調べ。",
 	ko = "오케아노스의 삼인조 악단이 해상 탐험에 바치는 음악입니다.",
-	pl = "Pieśń będąca hołdem dla wielkich morskich wypraw skomponowana przez muzyczne trio zamieszkujące głębiny Okeanosu.",
+	pl =
+	"Pieśń będąca hołdem dla wielkich morskich wypraw skomponowana przez muzyczne trio zamieszkujące głębiny Okeanosu.",
 	["pt-BR"] = "Tema dedicado à exploração dos mares, composto por um trio musical que habita o Oceano.",
 	ru = "Музыкальная тема, посвящённая морским странствиям. Исполняется трио из Океана.",
 	tr = "Okeanos çıkışlı müzik üçlüsünün, deniz keşiflerine ithaf ettiği tema müziği.",
@@ -87,14 +113,18 @@ local scylla3aDescription = {
 local scylla3bDescription = {
 	en = "Theme about being in dire straits, by an Oceanus-based musical trio with special guest.",
 	de = "Ein Lied über einen tragischen Schiffbruch von einem Musik-Trio aus dem Okeanos und seinem Gaststar.",
-	el = "Μουσική για δύσκολες καταστάσεις και στριμώγματα, που εκτελείται από ένα μουσικό τρίο που κατοικοεδρεύει στον Ωκεανό.",
+	el =
+	"Μουσική για δύσκολες καταστάσεις και στριμώγματα, που εκτελείται από ένα μουσικό τρίο που κατοικοεδρεύει στον Ωκεανό.",
 	es = "Canción que trata sobre estar en un brete, compuesta por un trío musical del Océano con una invitada especial.",
-	fr = "Un morceau évoquant une situation particulièrement désespérée, composé par un trio musical résidant dans les profondeurs d'Océanos.",
+	fr =
+	"Un morceau évoquant une situation particulièrement désespérée, composé par un trio musical résidant dans les profondeurs d'Océanos.",
 	it = "Tema di un famigerato stretto, eseguito da un trio musicale dell'Oceano (più un'ospite speciale).",
 	ja = "オケアノスで活動する3名の楽士が特別ゲストと\nともに奏でる、苦境に陥る苦しみを唄った調べ。",
 	ko = "오케아노스의 삼인조 악단이 특별 손님을 모시고 진퇴양난의 곤경을 노래하는 음악입니다.",
-	pl = "Pieśń poświęcona sytuacjom bez wyjścia skomponowana przez muzyczne trio z głębin Okeanosu i ich gościa specjalnego.",
-	["pt-BR"] = "Tema sobre a sensação de estar na fossa, composto por um trio musical que habita o Oceano (e uma convidada especial).",
+	pl =
+	"Pieśń poświęcona sytuacjom bez wyjścia skomponowana przez muzyczne trio z głębin Okeanosu i ich gościa specjalnego.",
+	["pt-BR"] =
+	"Tema sobre a sensação de estar na fossa, composto por um trio musical que habita o Oceano (e uma convidada especial).",
 	ru = "Музыкальная тема отчаявшихся душ, исполняемая трио из Океана и их особой гостьей.",
 	tr = "Özel bir konuk eşliğinde Okeanos çıkışlı müzik üçlüsünün, zor anlar yaşamayı konu aldığı tema müziği.",
 	uk = "Пісня про складні життєві обставини (виконує музичне тріо з Океану із запрошеною гостею).",
@@ -104,9 +134,11 @@ local scylla3bDescription = {
 local scylla4aDescription = {
 	en = "Theme invoking treasures of the sea, by an Oceanus-based musical trio.",
 	de = "Ein Lied über die Schätze des Meeres von einem Musik-Trio aus dem Okeanos.",
-	el = "Μουσική με θεματολογία τους θησαυρούς της θάλασσας, με εκτέλεση από ένα μουσικό τρίο που κατοικοεδρεύει στον Ωκεανό.",
+	el =
+	"Μουσική με θεματολογία τους θησαυρούς της θάλασσας, με εκτέλεση από ένα μουσικό τρίο που κατοικοεδρεύει στον Ωκεανό.",
 	es = "Canción que evoca los tesoros del mar, compuesta por un trío musical del Océano.",
-	fr = "Un morceau évoquant des trésors sous-marins, composé par un trio musical résidant dans les profondeurs d'Océanos.",
+	fr =
+	"Un morceau évoquant des trésors sous-marins, composé par un trio musical résidant dans les profondeurs d'Océanos.",
 	it = "Tema che evoca immagini di tesori sommersi, da un trio musicale residente dell'Oceano.",
 	ja = "オケアノスで活動する3名の楽士が唄う、\n海の宝を思わせる調べ。",
 	ko = "오케아노스의 삼인조 악단이 바다의 보물을 노래하는 음악입니다.",
@@ -121,7 +153,8 @@ local scylla4aDescription = {
 local scylla4bDescription = {
 	en = "Theme about magickally-induced love, by an Oceanus-based musical trio.",
 	de = "Ein Lied über einen Liebeszauber von einem Musik-Trio aus dem Okeanos.",
-	el = "Μουσική για την αγάπη που προκαλείται από τη μαγεία, με εκτέλεση από ένα μουσικό τρίο που κατοικοεδρεύει στον Ωκεανό.",
+	el =
+	"Μουσική για την αγάπη που προκαλείται από τη μαγεία, με εκτέλεση από ένα μουσικό τρίο που κατοικοεδρεύει στον Ωκεανό.",
 	es = "Canción sobre el amor inducido por arte de magia, compuesta por un trío musical del Océano.",
 	fr = "Un morceau évoquant un amour né de magie, composé par un trio musical résidant dans les profondeurs d'Océanos.",
 	it = "Tema di amori indotti con mezzi occulti, da un trio musicale residente dell'Oceano.",
@@ -138,9 +171,10 @@ local scylla4bDescription = {
 
 -- Song of the Sirens
 MusicMakerAPI.RegisterSong({
-	Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics",
-	TrackName = "/Music/IrisMusicScylla1_MC",
+	Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics_Hummed",
+	TrackName = "{19832ec2-145b-4654-b956-7d1538e42942}",
 	InsertAfter = "Song_Scylla1a",
+	VersionOf = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics",
 	Name = {
 		en = "Song of the Sirens \\[Humming\\]",
 		de = "Lied der Sirenen \\[Humming\\]",
@@ -159,11 +193,11 @@ MusicMakerAPI.RegisterSong({
 		["zh-TW"] = "〈海妖之歌［Humming］〉",
 	},
 	Description = scylla1aDescription,
-	Stems = { "Vocals", "Vocals2", "Guitar", "Bass", "Drums" },
+	-- Humming was put on Vocals2, Lyrics on Vocals
+	Stems = { "Vocals2", "Guitar", "Bass", "Drums" },
 	AmbientParams = { LowPass = 0 },
-	MusicSection = 0,
 	Cost = {
-		CosmeticsPoints = 400,
+		CosmeticsPoints = 550,
 		MixerGBoss = 1,
 	},
 	GameStateRequirements = {
@@ -174,44 +208,8 @@ MusicMakerAPI.RegisterSong({
 	UnlockImmediately = config.unlockEverything,
 })
 MusicMakerAPI.RegisterSong({
-	Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics_Hummed",
-	TrackName = "/Music/IrisMusicScylla1_MC",
-	InsertAfter = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics",
-	Name = {
-		en = "Song of the Sirens \\[Hummed Lyrics\\]",
-		de = "Lied der Sirenen \\[Hummed Lyrics\\]",
-		el = "Τραγούδι των Σειρήνων \\[Hummed Lyrics\\]",
-		es = "La canción de las Sirenas \\[Hummed Lyrics\\]",
-		fr = "Chant des Sirènes \\[Hummed Lyrics\\]",
-		it = "Canto delle Sirene \\[Hummed Lyrics\\]",
-		ja = "セイレンの歌［Hummed Lyrics］",
-		ko = "세이렌의 노래\\[Hummed Lyrics\\]",
-		pl = "Pieśń syren \\[Hummed Lyrics\\]",
-		["pt-BR"] = "Canto das Sereias \\[Hummed Lyrics\\]",
-		ru = "Песня сирен \\[Hummed Lyrics\\]",
-		tr = "Sirenlerin Şarkısı \\[Hummed Lyrics\\]",
-		uk = "Пісня сирен \\[Hummed Lyrics\\]",
-		["zh-CN"] = "《塞壬之歌［Hummed Lyrics］》",
-		["zh-TW"] = "〈海妖之歌［Hummed Lyrics］〉",
-	},
-	Description = scylla1aDescription,
-	Stems = { "Vocals", "Vocals2", "Guitar", "Bass", "Drums" },
-	AmbientParams = { LowPass = 0 },
-	MusicSection = 3,
-	Cost = {
-		CosmeticsPoints = 550,
-		MixerGBoss = 1,
-	},
-	GameStateRequirements = {
-		{
-			PathTrue = { "GameState", "WorldUpgradesAdded", "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics_Actual" },
-		},
-	},
-	UnlockImmediately = config.unlockEverything,
-})
-MusicMakerAPI.RegisterSong({
-	Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics_Actual",
-	TrackName = "/Music/IrisMusicScylla1_MC",
+	Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics",
+	TrackName = "{19832ec2-145b-4654-b956-7d1538e42942}",
 	InsertAfter = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1a_Lyrics_Hummed",
 	Name = {
 		en = "Song of the Sirens \\[Lyrics\\]",
@@ -231,12 +229,12 @@ MusicMakerAPI.RegisterSong({
 		["zh-TW"] = "〈海妖之歌［Lyrics］〉",
 	},
 	Description = scylla1aDescription,
-	Stems = { "Vocals", "Vocals2", "Guitar", "Bass", "Drums" },
+	-- Humming was put on Vocals2, Lyrics on Vocals
+	Stems = { "Vocals", "Guitar", "Bass", "Drums" },
 	AmbientParams = { LowPass = 0 },
-	MusicSection = 1,
 	Cost = {
 		CosmeticsPoints = 550,
-		MixerGBoss = 1,
+		MixerGBoss = 2,
 	},
 	GameStateRequirements = {
 		{
@@ -251,6 +249,7 @@ MusicMakerAPI.RegisterSong({
 	Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla1b_Lyrics",
 	TrackName = "/Music/IrisMusicScylla1_MC",
 	InsertAfter = "Song_Scylla1b",
+	VersionOf = "Song_Scylla1b",
 	Name = {
 		en = "Coral Crown \\[Lyrics\\]",
 		de = "Korallenkranz \\[Lyrics\\]",
@@ -272,6 +271,8 @@ MusicMakerAPI.RegisterSong({
 	Stems = { "Vocals", "Vocals2", "Guitar", "Bass", "Drums" },
 	AmbientParams = { LowPass = 0 },
 	MusicSection = 2,
+	-- TrackOffset = 797.7, works, anything with more than one decimal place causes some double-up?
+	TrackOffset = 797.7,
 	Rocking = true,
 	Cost = {
 		CosmeticsPoints = 600,
@@ -285,11 +286,12 @@ MusicMakerAPI.RegisterSong({
 	UnlockImmediately = config.unlockEverything,
 })
 
--- song of the Deep
+-- Song of the Deep
 MusicMakerAPI.RegisterSong({
-	Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics",
-	TrackName = "/Music/IrisMusicScylla2_MC",
+	Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics_Hummed",
+	TrackName = "{19edceec-e7c1-4252-a7c5-ab4cdc528818}",
 	InsertAfter = "Song_Scylla2a",
+	VersionOf = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics",
 	Name = {
 		en = "Song of the Deep \\[Humming\\]",
 		de = "Lied der Tiefe \\[Humming\\]",
@@ -308,11 +310,11 @@ MusicMakerAPI.RegisterSong({
 		["zh-TW"] = "〈幽深海底［Humming］〉",
 	},
 	Description = scylla2aDescription,
-	Stems = { "Vocals", "Vocals2", "Guitar", "Bass", "Drums" },
+	-- Humming was put on Vocals2, Lyrics on Vocals
+	Stems = { "Vocals2", "Guitar", "Bass", "Drums" },
 	AmbientParams = { LowPass = 0 },
-	MusicSection = 0,
 	Cost = {
-		CosmeticsPoints = 400,
+		CosmeticsPoints = 550,
 		MixerGBoss = 1,
 	},
 	GameStateRequirements = {
@@ -323,44 +325,8 @@ MusicMakerAPI.RegisterSong({
 	UnlockImmediately = config.unlockEverything,
 })
 MusicMakerAPI.RegisterSong({
-	Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics_Hummed",
-	TrackName = "/Music/IrisMusicScylla2_MC",
-	InsertAfter = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics",
-	Name = {
-		en = "Song of the Deep \\[Hummed Lyrics\\]",
-		de = "Lied der Tiefe \\[Hummed Lyrics\\]",
-		el = "Τραγούδι του Βυθού \\[Hummed Lyrics\\]",
-		es = "Canto de los abismos \\[Hummed Lyrics\\]",
-		fr = "Chant des abysses \\[Hummed Lyrics\\]",
-		it = "Canto degli Abissi \\[Hummed Lyrics\\]",
-		ja = "深淵の歌［Hummed Lyrics］",
-		ko = "심해의 노래\\[Hummed Lyrics\\]",
-		pl = "Pieśń głębin \\[Hummed Lyrics\\]",
-		["pt-BR"] = "Canto das Profundezas \\[Hummed Lyrics\\]",
-		ru = "Песня глубин \\[Hummed Lyrics\\]",
-		tr = "Derinlerin Şarkısı \\[Hummed Lyrics\\]",
-		uk = "Пісня глибин \\[Hummed Lyrics\\]",
-		["zh-CN"] = "《深海之歌［Hummed Lyrics］》",
-		["zh-TW"] = "〈幽深海底［Hummed Lyrics］〉",
-	},
-	Description = scylla2aDescription,
-	Stems = { "Vocals", "Vocals2", "Guitar", "Bass", "Drums" },
-	AmbientParams = { LowPass = 0 },
-	MusicSection = 3,
-	Cost = {
-		CosmeticsPoints = 550,
-		MixerGBoss = 1,
-	},
-	GameStateRequirements = {
-		{
-			PathTrue = { "GameState", "WorldUpgradesAdded", "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics_Actual" },
-		},
-	},
-	UnlockImmediately = config.unlockEverything,
-})
-MusicMakerAPI.RegisterSong({
-	Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics_Actual",
-	TrackName = "/Music/IrisMusicScylla2_MC",
+	Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics",
+	TrackName = "{19edceec-e7c1-4252-a7c5-ab4cdc528818}",
 	InsertAfter = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2a_Lyrics_Hummed",
 	Name = {
 		en = "Song of the Deep \\[Lyrics\\]",
@@ -380,12 +346,12 @@ MusicMakerAPI.RegisterSong({
 		["zh-TW"] = "〈幽深海底［Lyrics］〉",
 	},
 	Description = scylla2aDescription,
-	Stems = { "Vocals", "Vocals2", "Guitar", "Bass", "Drums" },
+	-- Humming was put on Vocals2, Lyrics on Vocals
+	Stems = { "Vocals", "Guitar", "Bass", "Drums" },
 	AmbientParams = { LowPass = 0 },
-	MusicSection = 1,
 	Cost = {
 		CosmeticsPoints = 550,
-		MixerGBoss = 1,
+		MixerGBoss = 2,
 	},
 	GameStateRequirements = {
 		{
@@ -400,6 +366,7 @@ MusicMakerAPI.RegisterSong({
 	Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla2b_Lyrics",
 	TrackName = "/Music/IrisMusicScylla2_MC",
 	InsertAfter = "Song_Scylla2b",
+	-- VersionOf = "Song_Scylla2b",
 	Name = {
 		en = "I Am Gonna Claw (Out Your Eyes...) \\[Lyrics\\]",
 		de = "Ich kratz dir die Augen aus \\[Lyrics\\]",
@@ -437,9 +404,10 @@ MusicMakerAPI.RegisterSong({
 
 -- Song of the Isles
 MusicMakerAPI.RegisterSong({
-	Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics",
-	TrackName = "/Music/IrisMusicScylla3_MC",
+	Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics_Hummed",
+	TrackName = "{6e6e3d16-305f-4ad0-9067-b63caf0b7423}",
 	InsertAfter = "Song_Scylla3a",
+	VersionOf = "Song_Scylla3a",
 	Name = {
 		en = "Song of the Isles \\[Humming\\]",
 		de = "Lied der Inseln \\[Humming\\]",
@@ -458,11 +426,12 @@ MusicMakerAPI.RegisterSong({
 		["zh-TW"] = "〈群嶼之歌［Humming］〉",
 	},
 	Description = scylla3aDescription,
-	Stems = { "Vocals", "Vocals2", "Guitar", "Bass", "Drums" },
+	-- Humming was put on Vocals2, Lyrics on Vocals
+	Stems = { "Vocals2", "Guitar", "Bass", "Drums" },
 	AmbientParams = { LowPass = 0 },
-	MusicSection = 0,
+	MusicSection = 3,
 	Cost = {
-		CosmeticsPoints = 600,
+		CosmeticsPoints = 750,
 		MixerGBoss = 1,
 	},
 	GameStateRequirements = {
@@ -473,45 +442,10 @@ MusicMakerAPI.RegisterSong({
 	UnlockImmediately = config.unlockEverything,
 })
 MusicMakerAPI.RegisterSong({
-	Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics_Hummed",
-	TrackName = "/Music/IrisMusicScylla3_MC",
-	InsertAfter = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics",
-	Name = {
-		en = "Song of the Isles \\[Hummed Lyrics\\]",
-		de = "Lied der Inseln \\[Hummed Lyrics\\]",
-		el = "Τραγούδι των Νησιών \\[Hummed Lyrics\\]",
-		es = "Canción de las Islas \\[Hummed Lyrics\\]",
-		fr = "Chant des îles \\[Hummed Lyrics\\]",
-		it = "Canto delle Isole \\[Hummed Lyrics\\]",
-		ja = "島々の歌［Hummed Lyrics］",
-		ko = "섬들의 노래\\[Hummed Lyrics\\]",
-		pl = "Wyspiarska pieśń \\[Hummed Lyrics\\]",
-		["pt-BR"] = "Canto das Ilhas \\[Hummed Lyrics\\]",
-		ru = "Песнь островов \\[Hummed Lyrics\\]",
-		tr = "Adaların Şarkısı \\[Hummed Lyrics\\]",
-		uk = "Пісня островів \\[Hummed Lyrics\\]",
-		["zh-CN"] = "《远航之歌［Hummed Lyrics］》",
-		["zh-TW"] = "〈群嶼之歌［Hummed Lyrics］〉",
-	},
-	Description = scylla3aDescription,
-	Stems = { "Vocals", "Vocals2", "Guitar", "Bass", "Drums" },
-	AmbientParams = { LowPass = 0 },
-	MusicSection = 3,
-	Cost = {
-		CosmeticsPoints = 750,
-		MixerGBoss = 1,
-	},
-	GameStateRequirements = {
-		{
-			PathTrue = { "GameState", "WorldUpgradesAdded", "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics_Actual" },
-		},
-	},
-	UnlockImmediately = config.unlockEverything,
-})
-MusicMakerAPI.RegisterSong({
-	Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics_Actual",
-	TrackName = "/Music/IrisMusicScylla3_MC",
+	Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics",
+	TrackName = "{6e6e3d16-305f-4ad0-9067-b63caf0b7423}",
 	InsertAfter = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3a_Lyrics_Hummed",
+	VersionOf = "Song_Scylla3a",
 	Name = {
 		en = "Song of the Isles \\[Lyrics\\]",
 		de = "Lied der Inseln \\[Lyrics\\]",
@@ -530,12 +464,13 @@ MusicMakerAPI.RegisterSong({
 		["zh-TW"] = "〈群嶼之歌［Lyrics］〉",
 	},
 	Description = scylla3aDescription,
-	Stems = { "Vocals", "Vocals2", "Guitar", "Bass", "Drums" },
+	-- Humming was put on Vocals2, Lyrics on Vocals
+	Stems = { "Vocals", "Guitar", "Bass", "Drums" },
 	AmbientParams = { LowPass = 0 },
 	MusicSection = 1,
 	Cost = {
 		CosmeticsPoints = 750,
-		MixerGBoss = 1,
+		MixerGBoss = 2,
 	},
 	GameStateRequirements = {
 		{
@@ -550,6 +485,7 @@ MusicMakerAPI.RegisterSong({
 	Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla3b_Lyrics",
 	TrackName = "/Music/IrisMusicScylla3_MC",
 	InsertAfter = "Song_Scylla3b",
+	VersionOf = "Song_Scylla3b",
 	Name = {
 		en = "Rock and a Hard Place \\[Lyrics\\]",
 		de = "Zwischen Skylla und Charybdis \\[Lyrics\\]",
@@ -571,7 +507,7 @@ MusicMakerAPI.RegisterSong({
 	Stems = { "Vocals", "Vocals2", "Guitar", "Bass", "Drums" },
 	AmbientParams = { LowPass = 0 },
 	MusicSection = 2,
-	TrackOffset = 504.5,
+	TrackOffset = 504.6,
 	Rocking = true,
 	Cost = {
 		CosmeticsPoints = 800,
@@ -587,9 +523,10 @@ MusicMakerAPI.RegisterSong({
 
 -- Song of the Pearls
 MusicMakerAPI.RegisterSong({
-	Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4a_Lyrics",
-	TrackName = "/Music/IrisMusicScylla4_MC",
+	Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4a_Humming",
+	TrackName = "{56e611e3-6395-4be4-b8f8-31b7f83b4743}",
 	InsertAfter = "Song_Scylla4a",
+	VersionOf = "Song_Scylla4a",
 	Name = {
 		en = "Song of the Pearls \\[Humming\\]",
 		de = "Lied der Perlen \\[Humming\\]",
@@ -608,9 +545,9 @@ MusicMakerAPI.RegisterSong({
 		["zh-TW"] = "〈寶珠之歌［Humming］〉",
 	},
 	Description = scylla4aDescription,
-	Stems = { "Vocals", "Vocals2", "Guitar", "Bass", "Drums" },
+	-- Humming was put on Vocals2, Lyrics on Vocals
+	Stems = { "Vocals2", "Guitar", "Bass", "Drums" },
 	AmbientParams = { LowPass = 0 },
-	MusicSection = 0,
 	Cost = {
 		CosmeticsPoints = 600,
 		MixerGBoss = 1,
@@ -623,9 +560,10 @@ MusicMakerAPI.RegisterSong({
 	UnlockImmediately = config.unlockEverything,
 })
 MusicMakerAPI.RegisterSong({
-	Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4a_Lyrics_Actual",
-	TrackName = "/Music/IrisMusicScylla4_MC",
-	InsertAfter = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4a_Lyrics",
+	Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4a_Lyrics",
+	TrackName = "{56e611e3-6395-4be4-b8f8-31b7f83b4743}",
+	InsertAfter = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4a_Humming",
+	VersionOf = "Song_Scylla4a",
 	Name = {
 		en = "Song of the Pearls \\[Lyrics\\]",
 		de = "Lied der Perlen \\[Lyrics\\]",
@@ -644,9 +582,9 @@ MusicMakerAPI.RegisterSong({
 		["zh-TW"] = "〈寶珠之歌［Lyrics］〉",
 	},
 	Description = scylla4aDescription,
-	Stems = { "Vocals", "Vocals2", "Guitar", "Bass", "Drums" },
+	-- Humming was put on Vocals2, Lyrics on Vocals
+	Stems = { "Vocals", "Guitar", "Bass", "Drums" },
 	AmbientParams = { LowPass = 0 },
-	MusicSection = 1,
 	Cost = {
 		CosmeticsPoints = 750,
 		MixerGBoss = 1,
@@ -664,6 +602,7 @@ MusicMakerAPI.RegisterSong({
 	Id = "ModsNikkelMCrossroadSingingSirensMusicPlayer_Song_Scylla4b_Lyrics",
 	TrackName = "/Music/IrisMusicScylla4_MC",
 	InsertAfter = "Song_Scylla4b",
+	VersionOf = "Song_Scylla4b",
 	Name = {
 		en = "Bewitching Eyes \\[Lyrics\\]",
 		de = "Dein Blick verzaubert mich \\[Lyrics\\]",
@@ -685,7 +624,7 @@ MusicMakerAPI.RegisterSong({
 	Stems = { "Vocals", "Vocals2", "Guitar", "Bass", "Drums" },
 	AmbientParams = { LowPass = 0 },
 	MusicSection = 2,
-	TrackOffset = 451.5,
+	TrackOffset = 451.4,
 	Rocking = true,
 	Cost = {
 		CosmeticsPoints = 800,

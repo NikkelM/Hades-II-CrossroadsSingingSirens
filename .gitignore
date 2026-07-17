@@ -1,6 +1,10 @@
 # Custom
 /dev
 /build
+/development/dev
+/development/FMOD/*/.*
+/development/FMOD/*/Assets
+/development/FMOD/*/Build
 
 # Compiled Lua sources
 luac.out
