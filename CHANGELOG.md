@@ -1,12 +1,13 @@
 # Changelog
 
-## v2.1.0
+## v3.0.0
 
 <!--Releasenotes start-->
 - When switching between different versions of the same underlying song, the track will no longer start from the beginning but instead seemlessly switch between the two versions.
+- Melinoë will now sometimes comment on selecting one of the new Sirens' song with special voicelines.
 - Fixed an issue where after the lyrical version of an in-biome track played, the humming version would also play before looping back.
 - Renamed "Hummed Melody" to "Humming" and removed the original broken "Humming" versions.
-- Use square brackets instead of parantheses for consistency.
+- Use square brackets instead of parantheses in song titles for consistency.
 - Migrated the mod to the new Music Maker API.
 <!--Releasenotes end-->
 

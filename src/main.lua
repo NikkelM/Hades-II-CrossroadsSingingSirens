@@ -45,6 +45,7 @@ local function on_ready()
 	if config.enabled == false then return end
 	mod = modutil.mod.Mod.Register(_PLUGIN.guid)
 
+	import "Scripts/AudioData.lua"
 	import "Scripts/MusicPlayerData.lua"
 end
 
