@@ -5,7 +5,7 @@
 			<value>Song of the Isles Scylla3</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a1f2c085-bbef-47e0-afa1-98e0dd5ef1d7}</destination>
@@ -289,7 +289,6 @@
 	<object class="MixerBusEffectChain" id="{9069e527-f23e-4e27-bae4-1c63b57975e1}">
 		<relationship name="effects">
 			<destination>{62488fa0-f700-4e88-80ed-14d18fc58a90}</destination>
-			<destination>{afde659e-b194-495a-92a8-39434045a15b}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{58d523bb-eb59-4ced-916d-d943a9903443}" />
@@ -341,7 +340,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{f58fa888-0765-4243-9c4b-02b36a1ac10a}" />
 	<object class="MixerBusFader" id="{62488fa0-f700-4e88-80ed-14d18fc58a90}" />
-	<object class="SpatialiserEffect" id="{afde659e-b194-495a-92a8-39434045a15b}" />
 	<object class="AutomationCurve" id="{782b6306-4ece-4ad6-9ef8-51f88eed287c}">
 		<relationship name="parameter">
 			<destination>{0fc01393-2eb5-48db-9bfb-4d83601a1ac3}</destination>

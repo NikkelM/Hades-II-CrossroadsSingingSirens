@@ -5,7 +5,7 @@
 			<value>Song of the Sirens Scylla1</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a1f2c085-bbef-47e0-afa1-98e0dd5ef1d7}</destination>
@@ -269,7 +269,6 @@
 	<object class="MixerBusEffectChain" id="{d6e50280-4660-4557-ace7-3b2fd38caf7d}">
 		<relationship name="effects">
 			<destination>{552b9f0d-b1ea-4491-a9ce-2074e7ec6599}</destination>
-			<destination>{e17d3296-7d80-4b08-afa8-1f3a2174210a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ac270082-31b0-4aff-916d-35178496c697}" />
@@ -315,7 +314,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{a00a088f-b5cf-4cc5-b5ea-5f47dd8fbcf6}" />
 	<object class="MixerBusFader" id="{552b9f0d-b1ea-4491-a9ce-2074e7ec6599}" />
-	<object class="SpatialiserEffect" id="{e17d3296-7d80-4b08-afa8-1f3a2174210a}" />
 	<object class="AutomationCurve" id="{73b6c689-39e8-426e-b430-50a866157aa1}">
 		<relationship name="parameter">
 			<destination>{0fc01393-2eb5-48db-9bfb-4d83601a1ac3}</destination>

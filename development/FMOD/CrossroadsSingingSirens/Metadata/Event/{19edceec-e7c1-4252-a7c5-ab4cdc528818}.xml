@@ -5,7 +5,7 @@
 			<value>Song of the Deep Scylla2</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a1f2c085-bbef-47e0-afa1-98e0dd5ef1d7}</destination>
@@ -274,7 +274,6 @@
 	<object class="MixerBusEffectChain" id="{cbbaa42b-a1b7-4b6f-ab0c-3ef074cb5f16}">
 		<relationship name="effects">
 			<destination>{88e545a9-f57d-4ae4-8286-f232572c45b3}</destination>
-			<destination>{2e4bfc11-8352-4ed7-a877-b9833abcc5ea}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a5447122-ad71-4026-8753-3a3d52f4d000}" />
@@ -328,7 +327,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{4735c31e-80bc-438c-9c59-a4d1f54557a2}" />
 	<object class="MixerBusFader" id="{88e545a9-f57d-4ae4-8286-f232572c45b3}" />
-	<object class="SpatialiserEffect" id="{2e4bfc11-8352-4ed7-a877-b9833abcc5ea}" />
 	<object class="AutomationCurve" id="{ab2e1323-c684-41f2-aaa3-428ebb0887f8}">
 		<relationship name="parameter">
 			<destination>{0fc01393-2eb5-48db-9bfb-4d83601a1ac3}</destination>

@@ -1,15 +1,19 @@
 # Changelog
 
-## v3.0.0
+## v3.0.1
 
 <!--Releasenotes start-->
+- Fixed the songs not playing if a save is loaded in the Training Grounds, or when returning from a Chaos Trial or Dream Dive.
+<!--Releasenotes end-->
+
+## v3.0.0
+
 - When switching between different versions of the same underlying song, the track will no longer start from the beginning but instead seemlessly switch between the two versions.
 - Melinoë will now sometimes comment on selecting one of the new Sirens' song with special voicelines.
 - Fixed an issue where after the lyrical version of an in-biome track played, the humming version would also play before looping back.
 - Renamed "Hummed Melody" to "Humming" and removed the original broken "Humming" versions.
 - Use square brackets instead of parantheses in song titles for consistency.
 - Migrated the mod to the new Music Maker API.
-<!--Releasenotes end-->
 
 ## v2.0.0
 
