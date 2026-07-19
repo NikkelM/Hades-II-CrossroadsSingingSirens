@@ -5,7 +5,7 @@ schemaVersion = "0.0.1"
 [package]
 namespace = "NikkelM"
 name = "Crossroads_Singing_Sirens"
-versionNumber = "3.0.0"
+versionNumber = "3.0.1"
 description = "Unlock 12 new lyrical and hummed versions of the songs sung by Scylla and the Sirens at the Music Maker in the Crossroads."
 websiteUrl = "https://github.com/NikkelM/Hades-II-CrossroadsSingingSirens"
 containsNsfwContent = false
